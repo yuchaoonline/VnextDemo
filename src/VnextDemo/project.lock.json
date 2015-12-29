@@ -28,6 +28,34 @@
           "lib/net45/Castle.Windsor.dll": {}
         }
       },
+      "fm.Extensions.Logging/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "10.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/fm.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/fm.Extensions.Logging.dll": {}
+        }
+      },
+      "JetBrains.Annotations/10.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net20/JetBrains.Annotations.dll": {}
+        }
+      },
       "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -1774,6 +1802,34 @@
           "lib/net45/Castle.Windsor.dll": {}
         }
       },
+      "fm.Extensions.Logging/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "10.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/fm.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/fm.Extensions.Logging.dll": {}
+        }
+      },
+      "JetBrains.Annotations/10.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net20/JetBrains.Annotations.dll": {}
+        }
+      },
       "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc1-final": {
         "type": "package",
         "dependencies": {
@@ -2358,6 +2414,34 @@
         },
         "runtime": {
           "lib/net45/Castle.Windsor.dll": {}
+        }
+      },
+      "fm.Extensions.Logging/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "JetBrains.Annotations": "10.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "1.0.0-rc1-final"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "mscorlib",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/dnx451/fm.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/dnx451/fm.Extensions.Logging.dll": {}
+        }
+      },
+      "JetBrains.Annotations/10.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net20/JetBrains.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/net20/JetBrains.Annotations.dll": {}
         }
       },
       "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc1-final": {
@@ -6142,6 +6226,36 @@
         "readme.txt"
       ]
     },
+    "fm.Extensions.Logging/1.0.2": {
+      "type": "package",
+      "sha512": "lPDcQxzszPLwUP8/XQdGKPXKgKadtVnOmMDLqWI+Y5ZGi1QOEHIVb2YcEMQPBIO9YCtOIXO9/OOns7xfMPYF5w==",
+      "files": [
+        "fm.Extensions.Logging.1.0.2.nupkg",
+        "fm.Extensions.Logging.1.0.2.nupkg.sha512",
+        "fm.Extensions.Logging.nuspec",
+        "lib/dnx451/fm.Extensions.Logging.dll",
+        "lib/dnx451/fm.Extensions.Logging.xml",
+        "lib/net451/fm.Extensions.Logging.dll",
+        "lib/net451/fm.Extensions.Logging.xml",
+        "lib/net46/fm.Extensions.Logging.dll",
+        "lib/net46/fm.Extensions.Logging.xml"
+      ]
+    },
+    "JetBrains.Annotations/10.0.0": {
+      "type": "package",
+      "sha512": "vyadsDFnDDbR2NK3P++l9AA5ogM+cWlj8kQl8NV9m+LZyEYxjQndZZL/noqb5g8pYpCNellecxtVFdUZ979UWg==",
+      "files": [
+        "JetBrains.Annotations.10.0.0.nupkg",
+        "JetBrains.Annotations.10.0.0.nupkg.sha512",
+        "JetBrains.Annotations.nuspec",
+        "lib/net20/JetBrains.Annotations.dll",
+        "lib/net20/JetBrains.Annotations.xml",
+        "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.dll",
+        "lib/portable-net4+sl4+wp7+netcore45/JetBrains.Annotations.PCL1.xml",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/JetBrains.Annotations.PCL328.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/JetBrains.Annotations.PCL328.xml"
+      ]
+    },
     "Microsoft.AspNet.FileProviders.Abstractions/1.0.0-rc1-final": {
       "type": "package",
       "serviceable": true,
@@ -9409,7 +9523,8 @@
     ],
     "DNX,Version=v4.5.1": [
       "Castle.Core >= 3.3.3",
-      "Castle.Windsor >= 3.3.0"
+      "Castle.Windsor >= 3.3.0",
+      "fm.Extensions.Logging >= 1.0.2"
     ],
     "DNXCore,Version=v5.0": []
   }

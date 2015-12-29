@@ -21,12 +21,14 @@ namespace VnextDemo
         public void Configure(IApplicationBuilder app)
         {
             app.UseIISPlatformHandler();
-
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("vNext start!");
+                
             });
         }
+
+
 
         // Entry point for the application.
         public static void Main(string[] args) => WebApplication.Run<Startup>(args);
